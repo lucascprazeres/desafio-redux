@@ -1,0 +1,25 @@
+.dashboard-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.dashboard-container header {
+  width: 100%;
+  padding: 16px;
+  background: #e83f5b;
+}
+
+header #title-container {
+  display: flex;
+}
+
+header #title-container h1 {
+  margin-left: 8px;
+  color: #fff;
+  font-weight: normal;
+}
+
+header #title-container h1 strong {
+  color: #eee
+}

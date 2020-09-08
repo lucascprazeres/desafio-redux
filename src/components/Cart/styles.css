@@ -1,0 +1,22 @@
+#cart-container {
+  padding: 16px;
+}
+
+#cart-title-container {
+  display: flex;
+}
+
+#cart-container h1 {
+  color: #e83f5b;
+  font-size: 32px;
+  margin-left: 8px;
+  margin-bottom: 16px;
+}
+
+#cart-items-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+}
