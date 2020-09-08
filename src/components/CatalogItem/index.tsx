@@ -8,11 +8,12 @@ interface CatalogItemProps {
   product: {
     title: string;
     price: number;
+    image: string;
   }; // TODO
 }
 
 const CatalogItem: React.FC<CatalogItemProps> = ({ product }) => {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
   const handleAddProductToCart = useCallback(() => {
     // TODO add product
@@ -23,8 +24,8 @@ const CatalogItem: React.FC<CatalogItemProps> = ({ product }) => {
   return (
     <article className="product-container">
       <img
-        src="https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg"
-        alt="camisa"
+        src={product.image}
+        alt={product.title}
       />
       <span>{product.title}</span>
 
