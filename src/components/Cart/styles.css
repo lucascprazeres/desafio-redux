@@ -4,13 +4,25 @@
 
 #cart-title-container {
   display: flex;
+  align-items: center;
 }
 
-#cart-container h1 {
+#cart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+#cart-header h3 {
   color: #e83f5b;
+  font-size: 24px;
+}
+
+#cart-container h2 {
+  color: #3d3d4d;
   font-size: 32px;
   margin-left: 8px;
-  margin-bottom: 16px;
 }
 
 #cart-items-list {
